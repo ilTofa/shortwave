@@ -9,4 +9,12 @@ The application currently requires Xcode 4.x but it can be easily compiled under
 
 The app is dependent on the [Parse SDK](https://www.parse.com) for the favorites saving (you'll need a registered app to use it), iCloud for the saved songs sharing between device (it will happily work without iCloud, though) and a [Karotz store](http://www.karotz.com/appz/home) application for Karotz streaming.
 
+**Screenshots**
+
+iPhone: ![iPhone](ss-iphone.png)
+
+Macintosh: ![Macintosh](ss-mac.png)
+
+**License**
+
 The source code is @2014 Giacomo Tufano and it's licensed under the MIT license (see the LICENSE file for details). The radio db (a bit outdated, unfortunately) is in the project as a CSV file.
