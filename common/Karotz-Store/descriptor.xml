@@ -1,0 +1,21 @@
+<descriptor>
+    <version>1.0.3</version>
+    <accesses>
+        <access>tts</access>
+        <access>led</access>
+        <access>multimedia</access>
+        <access>http</access>
+    </accesses>
+
+    <editor>Giacomo Tufano</editor>
+    <asrName>Coniglio</asrName>
+    <deployment>external</deployment>
+    <multiConf>false</multiConf>
+
+    <interruptible>true</interruptible>
+    <awake>true</awake>
+	<parameters>
+		<parameter key="showInstallUuid" value="true"/>
+	</parameters>
+    <callback>http://ishtar.iltofa.com/code.py/callback</callback>
+</descriptor>
